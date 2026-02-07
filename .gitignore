@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp.cjs
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+.cache/
+.parcel-cache/
+.next/
+.turbo/
+.eslintcache
+/.pnp/
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Docker
+docker-compose.override.yml
+
+# Lockfiles for local development (ignore if you want to track these)
+# Uncomment if you do NOT want to commit lockfiles
+# package-lock.json
+# yarn.lock
